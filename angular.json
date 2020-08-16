@@ -10,6 +10,10 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
+        "styles":  [
+          "node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "src/styles.scss"
+        ]
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
